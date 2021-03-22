@@ -1,0 +1,54 @@
+body{
+    background-color: white;
+}
+.container{
+    width:250px;
+    color:black;
+    height:400px;
+    margin:80px auto;
+    border-radius:10px;
+    background:black;
+    box-shadow: 5px 10px , -5px -5px -10px grey;
+}
+.cal-box{
+    width:200px;
+    margin:20px auto;
+}
+#display{
+    border:white;
+    
+    text-align:right;
+    font-weight:600;
+    padding:15px;
+    margin: 30px 0 20px 0 ;
+    background:white;
+    
+}
+
+.button{
+    margin: 15px 0 0 5px;
+    color:black;
+    width: 42px;
+    height: 42px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ9kgv-p-42wF6_keyDwXwQg0JII5p1TrCQg&usqp=CAU);
+    box-shadow: 5px 5px 10px black,-5px -5px 10px black;
+    display: inline-block;
+    
+}
+.button:active{
+    box-shadow:inset 1px 1px 2px black,inset -1px -1px 2px black
+}
+.clearbutton{
+    background-image:url(https://thumbs.dreamstime.com/b/close-up-water-drops-pink-background-close-up-water-drops-pink-background-water-drop-macro-photography-162798299.jpg);
+    
+}
+.mathbutton{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ9kgv-p-42wF6_keyDwXwQg0JII5p1TrCQg&usqp=CAU);
+    
+}
